@@ -1,0 +1,30 @@
+{
+  "name": "postcss-split",
+  "version": "0.0.1",
+  "description": "PostCSS plugin to split annotated CSS into a small set of important rules that will be embedded in the HTML, and a large set of rules that will be loaded asynchronously.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "critical css",
+    "css split",
+    "prioritize critical css"
+  ],
+  "author": "Wladston Viana Ferreira Filho <wladston@wladston.net>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wladston/postcss-split.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wladston/postcss-split/issues"
+  },
+  "homepage": "https://github.com/wladston/postcss-split",
+  "dependencies": {
+    "postcss": "^4.1.13"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  }
+}
