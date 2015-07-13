@@ -4,7 +4,12 @@ var postcss = require('postcss');
 var Splitter = postcss.plugin('postcss-split', function (opts) {
   var opts = opts || {};
   var pattern = opts.pattern || /FOLD/;
-  var positive_match = opts.positive_match || true;
+  if (typeof opts.positive_match !== 'undefined') {
+    var positive_match = opts.positive_match;
+  }
+  else {
+    var positive_match = true;
+  }
   return function (css, result) {
     var newcss = postcss.root();
     css.eachRule(function (rule) {
