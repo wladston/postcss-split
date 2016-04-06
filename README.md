@@ -6,17 +6,20 @@
 
 ```css
 /* Input example */
-a /*FOLD*/ { 
+a {
+    /*!CRITICAL*/
     color:blue
 }
 b {
     font-weight:bold
 }
 @media only screen and (max-width: 500px){
-    a /*FOLD*/ {
+    a {
+        /*!CRITICAL*/
         color:black
     }
-    b /*FOLD*/ {
+    b {
+        /*!CRITICAL*/
         color:blue
     }
     c {
@@ -27,7 +30,7 @@ b {
 
 ```css
   /* Output example */
-a { 
+a {
     color:blue
 }
 @media only screen and (max-width: 500px){
