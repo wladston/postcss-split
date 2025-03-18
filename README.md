@@ -1,4 +1,10 @@
-# PostCSS Split
+# ⚠️ PostCSS Split (Deprecated)
+
+🚨 **This project is no longer maintained.**  
+For a modern alternative that works with **PostCSS 8**, use:  
+👉 **[`postcss-critical-split`](https://github.com/mrnocreativity/postcss-critical-split)**.
+
+---
 
 [PostCSS] plugin to split annotated CSS into two: a small set of important rules that will be embedded in the HTML, and a large set of rules that will be loaded asynchronously.
 
